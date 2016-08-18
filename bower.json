@@ -1,0 +1,23 @@
+{
+  "name": "proper-ng-cordova-js",
+  "homepage": "https://github.com/propersoft-cn/proper-ng-cordova-js",
+  "authors": [
+    "shendongsheng <shendongsheng@propersoft.cn>"
+  ],
+  "description": "angularjs wrapper of propersoft cordova plugin",
+  "main": "proper-ng-cordova.js",
+  "keywords": [
+    "proper",
+    "ng",
+    "cordova"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
