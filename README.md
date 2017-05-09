@@ -84,5 +84,13 @@ var params={
   	}
   	//添加打开通知的事件
   	document.addEventListener("Properpush.openNotification", onOpenNotification, false);
+
+	//推送本地设置角标及通知
+	//badgeNumber:角标数，=0时，清空角标,>0设置角标; title:通知标题, content:通知内容, customDic：通知对应的自定义键值对
+	//设置角标及通知
+	$properProperpush.sendBadgeNotification(12,'haha','this is the content',{'k1':'k1','k2':'k2'});
+	//title，content,customDic不传时，则只设置角标，不发送通知
+	$properProperpush.sendBadgeNotification(13);
+
   	//push end
 ```

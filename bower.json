@@ -6,7 +6,7 @@
   ],
   "description": "angularjs wrapper of propersoft cordova plugin",
   "main": "./proper-ng-cordova.js",
-  "version":"1.1.1",
+  "version":"1.2.0",
   "keywords": [
     "proper",
     "ng",

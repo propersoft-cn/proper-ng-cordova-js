@@ -97,6 +97,19 @@
           }
 
           return d.promise;
+        },
+        sendBadgeNotification: function(badgeNumber, title, content, customDic){
+          var d = $q.defer();
+
+          if ($window.plugins) {
+            $window.plugins.properpush.sendBadgeNotification(badgeNumber, title, content, customDic, function(success) {
+              d.resolve(success);
+            }, function(error) {
+              d.reject(error);
+            });
+          }
+
+          return d.promise;
         }
       };
     }]);
